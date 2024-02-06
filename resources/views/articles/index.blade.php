@@ -2,7 +2,7 @@
     <x-slot name="title">
         記事一覧
     </x-slot>
-    <div class="container">
+
         @include('nav')
         @foreach($articles as $article)
         <div class="card mt-3">
@@ -27,5 +27,4 @@
             </div>
         </div>
         @endforeach
-    </div>
 </x-app>

@@ -19,7 +19,9 @@
 
 <body>
     <div id="app">
-        {{ $slot }}
+        <div class="container">
+            {{ $slot }}
+        </div>
     </div>
     {{-- @vite('resources/js/app.js') --}}
     <!-- JQuery -->
