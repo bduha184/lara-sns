@@ -13,6 +13,7 @@
                     <div class="card-text">
                         <form method="POST" action="{{ route('register') }}">
                             @csrf
+                            @include('error_card_list')
                             <div class="md-form">
                                 <label for="name">ユーザー名</label>
                                 <input class="form-control" type="text" id="name" name="name" required
